@@ -10,9 +10,5 @@ def print_country_or_region(code):
 
 
 if __name__ == "__main__":
-    print('*'*20, 'begin', '*'*20, '\n')
-    print('author: Chris\n')
-    print('*'*47)
     code = input("Please input the calling code for search:\n")
     print_country_or_region(code)
-    print('*'*21, 'end', '*'*21, '\n')
